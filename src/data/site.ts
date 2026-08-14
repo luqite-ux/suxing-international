@@ -64,7 +64,7 @@ export const siteConfig = {
   futureLocales: ["zh", "es", "fr", "de"],
   contact: {
     phone: source.company.phone,
-    email: source.company.email,
+    email: "info@suxingapparel.com",
     address: "No. 409 Hongxing Road, Qiaonan Block, Xiaoshan Economic and Technological Development Zone, Zhejiang, China"
   },
   facility: source.company.facility,
