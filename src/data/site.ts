@@ -28,6 +28,58 @@ function sanitizeText(value: string) {
     .trim();
 }
 
+const colorMap: Record<string, string> = {
+  藏红: "Burgundy",
+  羊绒粉: "Cashmere pink",
+  野营绿: "Camp green",
+  云灰: "Cloud grey",
+  复古咖啡: "Vintage coffee",
+  鼠尾绿: "Sage green",
+  香槟白: "Champagne white",
+  木槿蓝: "Hibiscus blue",
+  蓝海流光: "Blue melange",
+  盐水蓝: "Saltwater blue",
+  可可蛋奶: "Cocoa cream",
+  木炭灰: "Charcoal grey",
+  黑色: "Black",
+  浅灰: "Light grey",
+  粉色: "Pink",
+  藏青: "Navy",
+  米色: "Beige",
+  黄色: "Yellow",
+  高级灰: "Premium grey",
+  落樱粉: "Cherry blossom pink"
+};
+
+function translateSpec(spec: string) {
+  const normalized = sanitizeText(spec).replace(/\s*\/\s*/g, "/").replace("半裙", "");
+  if (!normalized) return "Custom color / size by inquiry";
+
+  const parts = normalized.split("/").filter(Boolean);
+  const sizes = parts.filter((part) => /^[A-Z](?:-[A-Z]+)?$|^[A-Z]+-[A-Z]+$/.test(part));
+  const colors = parts.filter((part) => !sizes.includes(part)).map((part) => colorMap[part] ?? part);
+
+  if (colors.length && sizes.length) return `${colors.join(" / ")} / ${sizes.join(" / ")}`;
+  if (colors.length) return `${colors.join(" / ")} / Custom size`;
+  if (sizes.length) return `Custom color / ${sizes.join(" / ")}`;
+  return normalized.replace(/[^\x20-\x7E]/g, "").trim() || "Custom color / size by inquiry";
+}
+
+function buildEnglishDescription(product: { category: string; name: string; materials: string[] }) {
+  const materials = product.materials.length ? product.materials.join(", ") : "selected yarns and fabrics";
+  if (product.category === "Goose Down Outerwear") {
+    return `${product.name} is an export-ready outerwear style made with ${materials}. Color, size range, shell fabric, lining, label, packing, and order inspection details can be confirmed through the inquiry process.`;
+  }
+  if (product.category === "Pure Wool Sweaters") {
+    return `${product.name} is prepared for private-label wool sweater sourcing programs. Buyers can discuss yarn selection, color, size grading, decorative details, label, packing, and sampling requirements during inquiry.`;
+  }
+  return `${product.name} is a premium knitwear style prepared for B2B seasonal collections and private-label apparel programs. Buyers can confirm ${materials}, color, size grading, workmanship, label, packing, and sampling details during inquiry.`;
+}
+
+function normalizeModelId(id: string) {
+  return id.replace("半裙", "-SKIRT").replace(/[^\x20-\x7E]/g, "").trim();
+}
+
 function translateFaqAnswer(answer: string) {
   const normalized = sanitizeText(answer);
   if (normalized.includes("XS/S/M/L")) return "Common size ranges include XS to XXL, with custom grading available for confirmed programs.";
@@ -74,13 +126,13 @@ export const siteConfig = {
 } as const;
 
 export const products: Product[] = source.products.map((product) => ({
-  id: product.id,
+  id: normalizeModelId(product.id),
   slug: product.slug,
   category: product.category,
   name: product.name,
-  spec: product.spec,
-  description: sanitizeText(product.description),
-  detail: sanitizeText(product.detail),
+  spec: translateSpec(product.spec),
+  description: buildEnglishDescription(product),
+  detail: "",
   materials: product.materials,
   image: product.image
 }));
