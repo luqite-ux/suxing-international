@@ -1,0 +1,1077 @@
+{
+  "company": {
+    "displayName": "Zhejiang Suxing Knitting Co., Ltd.",
+    "brandName": "SUXING International",
+    "nameZh": "浙江素型针纺有限公司",
+    "address": "浙江省萧山经济技术开发区桥南区块鸿兴路409号",
+    "phone": "13071850193",
+    "email": "hugexin66@qq.com",
+    "facility": {
+      "area": "100 mu",
+      "workshops": 7,
+      "productionLines": 60,
+      "monthlyCapacity": "400,000 pieces",
+      "dailyCapacity": "16,000 pieces",
+      "lineMix": "3 automated lines, 6 custom lines, and 51 flow lines"
+    }
+  },
+  "products": [
+    {
+      "id": "JM53055",
+      "slug": "jm53055-cropped-zip-cardigan",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Cropped Zip Cardigan",
+      "nameCn": "短款拉链开衫",
+      "spec": "藏红/M-L",
+      "description": "甄选30%珍稀羊绒融入高品质纱线，不同色泽的纤维形成自然、柔和、富有层次感的花纱效果",
+      "detail": "1.廓形:肩线自然垂落，营造出随性不羁的慵懒氛围，落肩设计柔和了肩部找条，更显瘦削感。 2.拉链设计:高品质尼龙拉链，轻装上阵，穿脱更方便。 3.针法:平纹织面，突出花纱质感，纹理丰富。 4.细节:边缘撞色设计，手工缝标。精巧构思，提升成 衣指节感。",
+      "materials": [
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-01-row-4.jpg",
+      "imageRow": 4,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53010",
+      "slug": "jm53010-relaxed-crewneck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Relaxed Crewneck Pullover",
+      "nameCn": "ROW版圆领套头衫",
+      "spec": "羊绒粉/F-F",
+      "description": "采用羊绒+透气亚麻；宽松的落肩设计 领口袖口单面卷边工艺 ；",
+      "detail": "1.廓形:宽松的落肩设计，赋予身体最大的舒展空间。 2.细节:独立飘带设计，灵动点睛。 3.下摆、袖口、领口，均采用单面卷边工艺，细节处尽显低 调的精致与手工温度。 4.左下位置皮标点缀，不经意的点睛之笔。柔软的皮质与织物肌理交融，增添一份低调的奢华感与个性化标识。 5.圆领设计，简约优雅，微露锁骨，修饰颈部线条。",
+      "materials": [
+        "cashmere blend",
+        "linen blend"
+      ],
+      "image": "/assets/products/product-03-row-5.jpg",
+      "imageRow": 5,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53053",
+      "slug": "jm53053-turtleneck-raglan-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Turtleneck Raglan Pullover",
+      "nameCn": "高领插肩袖套头衫",
+      "spec": "藏红/S-M",
+      "description": "采用100%山羊绒纱线，版型慵懒显瘦，高领搭配卷边、高弹罗纹细节；面料柔软保暖、垂顺透气",
+      "detail": "1.廓席形:肩线自然垂落，营造出随性不羁的慵懒氛围，落 肩设计柔和了肩部线条，更显瘦削感。 2.领型:高领设计，显瘦提升气质。 3.下摆袖口卷边点缀，细节感满满。 4.袖口下摆高罗纹设计，植入高弹丝，回弹性不变形",
+      "materials": [
+        "100% cashmere yarn",
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-02-row-7.jpg",
+      "imageRow": 7,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53058",
+      "slug": "jm53058-cable-knit-crewneck-cardigan",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Cable-Knit Crewneck Cardigan",
+      "nameCn": "圆领绞花开衫",
+      "spec": "野营绿/M-L",
+      "description": "羊绒亚麻混纺圆领开衫，绞花立体织纹搭 配自然卷边细节，版型宽松，兼具肌理感与松弛日常气质。",
+      "detail": "本款圆领开衫以高品质纱线打造，精选羊绒与亚麻混纺材质，兼顾柔软亲肤与自然挺括，赋予衣物细腻肌理与垂坠感。针法上运用经典绞花编织，凹凸的立体纹路增强层次感，同时保持版型的宽松舒适。细节处理彰显匠心:领口、袖口及下摆采用卷边设计，通过细腻的平纹工艺形成自然卷曲，既强化轮廓结构，又增添慵懒随性的气息。卷边与绞花纹理呼应，在简约中透出手工质感，整体呈现优雅而松弛的日常风格。",
+      "materials": [
+        "cashmere blend",
+        "linen blend"
+      ],
+      "image": "/assets/products/product-04-row-8.jpg",
+      "imageRow": 8,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53011半裙",
+      "slug": "jm53011-a-line-knit-skirt",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "A-Line Knit Skirt",
+      "nameCn": "A字半裙",
+      "spec": "羊绒粉/M-L",
+      "description": "A字半裙采用羊绒亚麻混纺面料兼顾柔软亲肤与透气挺括，宽松版型搭配抽绳与卷边细节，触感温润透气",
+      "detail": "",
+      "materials": [
+        "cashmere blend",
+        "linen blend"
+      ],
+      "image": "/assets/products/product-05-row-10.jpg",
+      "imageRow": 10,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53011",
+      "slug": "jm53011-boat-neck-relaxed-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Boat-Neck Relaxed Pullover",
+      "nameCn": "ROW版一字领套头衫",
+      "spec": "羊绒粉/F-F",
+      "description": "宽松落肩一字领版型，多处采用单面卷边工艺，搭配皮质标点缀。羊绒亚麻混纺兼顾柔软温润与透气挺括，自带自然肌理",
+      "detail": "",
+      "materials": [
+        "cashmere blend",
+        "linen blend"
+      ],
+      "image": "/assets/products/product-12-row-12.jpg",
+      "imageRow": 12,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53033",
+      "slug": "jm53033-boat-neck-m-lange-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Boat-Neck Mélange Pullover",
+      "nameCn": "一字领花纱套衫",
+      "spec": "云灰/F-F",
+      "description": "一字领花纱套衫，采用双层成分面料；宽 松落肩一字领版型，单面薄织法轻盈透气，拥有独特云朵肌理。多种纤维混纺打造蓬松立体层次感，穿着透气亲肤",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-10-row-14.jpg",
+      "imageRow": 14,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53030",
+      "slug": "jm53030-m-lange-crewneck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Mélange Crewneck Pullover",
+      "nameCn": "圆领花纱套头衫",
+      "spec": "复古咖啡/M-L",
+      "description": "宽松落肩圆领毛衫，100%羊绒花纱打造朦 胧肌理，创新针法优化袖口、领口结构，细节融入手工质感，呈现高阶松弛风格。",
+      "detail": "",
+      "materials": [
+        "100% cashmere yarn",
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-11-row-15.jpg",
+      "imageRow": 15,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53072",
+      "slug": "jm53072-brushed-cashmere-crewneck",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Brushed Cashmere Crewneck",
+      "nameCn": "加厚圆领套头衫",
+      "spec": "鼠尾绿/F-F",
+      "description": "100%拉绒羊绒，宽松插肩袖版型，拉绒织面厚实富有层次感。面料轻盈蓬松、回弹优良，触感软糯自带哑光质感",
+      "detail": "",
+      "materials": [
+        "100% cashmere yarn",
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-06-row-16.jpg",
+      "imageRow": 16,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53007",
+      "slug": "jm53007-v-neck-textured-yarn-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "V-Neck Textured Yarn Pullover",
+      "nameCn": "V领豆豆纱套头衫",
+      "spec": "香槟白/F-F",
+      "description": "宽松插肩袖搭配V领，后中皮质标点缀。特殊纺纱形成立体豆豆颗粒肌理，面料保暖富有弹性",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-07-row-17.jpg",
+      "imageRow": 17,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53056",
+      "slug": "jm53056-fair-isle-jacquard-cardigan",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Fair Isle Jacquard Cardigan",
+      "nameCn": "一手长提花开衫",
+      "spec": "藏红/F-F",
+      "description": "费尔岛几何花型，结合豆豆纱与提花工艺 ，立体感强；复古慵懒风格，搭配性广泛",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-08-row-18.jpg",
+      "imageRow": 18,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53020",
+      "slug": "jm53020-rolled-edge-crewneck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Rolled-Edge Crewneck Pullover",
+      "nameCn": "圆领卷边套头衫",
+      "spec": "木槿蓝/F-F",
+      "description": "宽松圆领羊绒拉绒毛衣，落肩设计搭配卷 边细节，绒感丰厚软糯，风格简约慵懒，适合日常冬日穿搭。",
+      "detail": "",
+      "materials": [
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-09-row-19.jpg",
+      "imageRow": 19,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53025",
+      "slug": "jm53025-oversized-fair-isle-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Oversized Fair Isle Pullover",
+      "nameCn": "大版费尔岛提花套头衫",
+      "spec": "蓝海流光/F-F",
+      "description": "费尔岛几何提花，结合豆豆纱与绞花工艺，层次立体；圆领卷边、落肩宽松版型，不挑身形，单穿叠搭均可，风格复古慵懒",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-13-row-21.jpg",
+      "imageRow": 21,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "01-JM53062",
+      "slug": "01-jm53062-notched-neck-cable-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Notched-Neck Cable Pullover",
+      "nameCn": "剪刀领套头衫",
+      "spec": "复古咖啡/F-F",
+      "description": "采用撞色绞花多种针法组合，搭配自然卷 边工艺，修饰身形；休闲慵懒风格，适配单穿与叠搭",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-14-row-24.jpg",
+      "imageRow": 24,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53043",
+      "slug": "jm53043-slub-yarn-turtleneck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Slub Yarn Turtleneck Pullover",
+      "nameCn": "高领大肚纱套头衫",
+      "spec": "盐水蓝/F-F",
+      "description": "采用定制大肚纱，不规则粗结造就独特斑 驳立体肌理，每件花色独一无二；风格松弛随性，充满手作质感，个性十足",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-15-row-27.jpg",
+      "imageRow": 27,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53070",
+      "slug": "jm53070-jacquard-knit-vest",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Jacquard Knit Vest",
+      "nameCn": "剪刀领提花马甲",
+      "spec": "复古咖啡/M-L",
+      "description": "采用撞色绞花工艺，搭配自然卷边设计， 版型大方包容，慵懒休闲，支持单穿、多层叠搭",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-16-row-29.jpg",
+      "imageRow": 29,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53063",
+      "slug": "jm53063-cropped-raglan-crewneck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Cropped Raglan Crewneck Pullover",
+      "nameCn": "短款插肩袖圆领套头衫",
+      "spec": "香槟白/F-F",
+      "description": "宽松圆领羊绒拉绒毛衣，落肩设计，绒感丰厚软糯，风格简约慵懒，适合日常冬日穿搭。",
+      "detail": "",
+      "materials": [
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-17-row-30.jpg",
+      "imageRow": 30,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53032",
+      "slug": "jm53032-raglan-crewneck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Raglan Crewneck Pullover",
+      "nameCn": "插肩袖圆领套头衫",
+      "spec": "复古咖啡/F-F",
+      "description": "宽松圆领羊绒拉绒毛衣，落肩设计，绒感丰厚软糯，风格简约慵懒，适合日常冬日穿搭。",
+      "detail": "",
+      "materials": [
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-18-row-32.jpg",
+      "imageRow": 32,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53015",
+      "slug": "jm53015-cape-style-knit-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Cape-Style Knit Pullover",
+      "nameCn": "披肩套头衫",
+      "spec": "羊绒粉/M-L",
+      "description": "羊绒亚麻混纺纱线，兼顾羊绒柔软与亚麻 透气；微宽松落肩披肩版型，自带微立体肌理，领口袖口罗纹收边，版型松弛不易垮，风格简约优雅，四季可穿。",
+      "detail": "",
+      "materials": [
+        "cashmere blend",
+        "linen blend"
+      ],
+      "image": "/assets/products/product-19-row-34.jpg",
+      "imageRow": 34,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53036",
+      "slug": "jm53036-fair-isle-crewneck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Fair Isle Crewneck Pullover",
+      "nameCn": "圆领费尔岛提花套头衫",
+      "spec": "可可蛋奶/M-L",
+      "description": "费尔岛虚实几何花型，融合绞花工艺，搭配插肩袖；柔和圆领修饰脸型，风格复古慵懒，可单穿也可内外叠搭。",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-20-row-36.jpg",
+      "imageRow": 36,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53069",
+      "slug": "jm53069-deep-u-neck-knit-vest",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Deep U-Neck Knit Vest",
+      "nameCn": "U型领马甲",
+      "spec": "藏红/F-F",
+      "description": "绞花搭配轻微镂空工艺，领口、下摆自然卷边处理；深U领拉长身形，版型松弛随性，肌理感突出，适合单穿与叠搭。",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-21-row-38.jpg",
+      "imageRow": 38,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53028",
+      "slug": "jm53028-vintage-cable-wave-edge-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Vintage Cable Wave-Edge Pullover",
+      "nameCn": "复古绞花波浪边套头衫",
+      "spec": "木槿蓝/M-L",
+      "description": "复古绞花滚边套头衫，采用100%纯山羊绒纱线；微宽松落肩版型，复古绞花搭配撞色花边，圆领单面卷边工艺",
+      "detail": "",
+      "materials": [
+        "100% cashmere yarn",
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-22-row-40.jpg",
+      "imageRow": 40,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53052",
+      "slug": "jm53052-high-neck-jacquard-cardigan",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "High-Neck Jacquard Cardigan",
+      "nameCn": "高领提花开衫",
+      "spec": "可可蛋奶/M-L",
+      "description": "采用费尔岛花型，搭配高领开门襟设计， 落肩宽松版型，层次感丰富；复古慵懒风格，适配多种下装，可单穿或叠搭。",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-23-row-44.jpg",
+      "imageRow": 44,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53051",
+      "slug": "jm53051-cropped-high-neck-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Cropped High-Neck Pullover",
+      "nameCn": "高领短款套头衫",
+      "spec": "木炭灰/M-L",
+      "description": "30%羊绒混纺段染花纱，自带斑驳朦胧渐变肌理；微宽松短款廓形。堆堆高领搭配微松袖管，优化身材比例，慵懒有质感。",
+      "detail": "",
+      "materials": [
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-24-row-45.jpg",
+      "imageRow": 45,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53049",
+      "slug": "jm53049-notched-neck-m-lange-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Notched-Neck Mélange Pullover",
+      "nameCn": "剪刀领花纱套头衫",
+      "spec": "木槿蓝/M-L",
+      "description": "采用大身绞花镂空工艺，落肩宽松版型， 活动空间充足、不挑身材，风格简约大气，单穿叠穿都很适配。",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-25-row-48.jpg",
+      "imageRow": 48,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53017",
+      "slug": "jm53017-v-neck-cable-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "V-Neck Cable Pullover",
+      "nameCn": "V领绞花套头衫",
+      "spec": "可可蛋奶/F-F",
+      "description": "采用30%羊绒混纺段染纱线，水墨渐变晕染色彩。糅合绞花、元宝针两种针法，肌理立体有张力，宽松垂坠V领包容身形，兼具保暖性与慵懒高级质感，通勤休闲皆可穿搭。",
+      "detail": "",
+      "materials": [
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-26-row-50.jpg",
+      "imageRow": 50,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53073",
+      "slug": "jm53073-striped-brushed-cashmere-pullover",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Striped Brushed Cashmere Pullover",
+      "nameCn": "条纹套头衫",
+      "spec": "鼠尾绿/M-L",
+      "description": "采用100%拉绒山羊绒纱线，经拉绒工艺处 理，面料蓬松软糯、保暖性佳，自带哑光高级质感。经典横向细条纹圆领版型，修饰脸型与身形，简约百搭，适合单穿或叠搭外套。",
+      "detail": "",
+      "materials": [
+        "100% cashmere yarn",
+        "cashmere blend"
+      ],
+      "image": "/assets/products/product-27-row-53.jpg",
+      "imageRow": 53,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53059",
+      "slug": "jm53059-space-dyed-v-neck-cardigan",
+      "category": "Premium Knitwear",
+      "categoryCn": "羊毛衫",
+      "name": "Space-Dyed V-Neck Cardigan",
+      "nameCn": "段染花纱V领开衫",
+      "spec": "可可蛋奶/M-L",
+      "description": "落肩宽松版型，绞花织法，采用特殊段染工艺，每件花色独一无二，面料蓬松软糯自带绒毛感。",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-28-row-56.jpg",
+      "imageRow": 56,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53130",
+      "slug": "jm53130-mid-length-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Mid-Length Goose Down Jacket",
+      "nameCn": "中长款鹅绒服",
+      "spec": "黑色/浅灰/粉色/藏青/米色/黄色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用中长款的泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-29-row-58.png",
+      "imageRow": 58,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53129",
+      "slug": "jm53129-short-stand-collar-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Short Stand-Collar Goose Down Jacket",
+      "nameCn": "立领短款鹅绒服",
+      "spec": "黑色/浅灰/粉色/藏青/米色/黄色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-30-row-59.png",
+      "imageRow": 59,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53128",
+      "slug": "jm53128-short-hooded-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Short Hooded Goose Down Jacket",
+      "nameCn": "连帽短款鹅绒服",
+      "spec": "黑色/浅灰/粉色/藏青/米色/黄色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-31-row-60.png",
+      "imageRow": 60,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53141",
+      "slug": "jm53141-full-length-goose-down-coat",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Full-Length Goose Down Coat",
+      "nameCn": "一手长鹅绒服",
+      "spec": "黑色/浅灰/粉色/藏青/米色/黄色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-32-row-61.png",
+      "imageRow": 61,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM53138",
+      "slug": "jm53138-mid-length-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Mid-Length Goose Down Jacket",
+      "nameCn": "中长款鹅绒服",
+      "spec": "黑色/浅灰/粉色/藏青/米色/黄色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-33-row-62.png",
+      "imageRow": 62,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM4D007",
+      "slug": "jm4d007-long-goose-down-coat",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Long Goose Down Coat",
+      "nameCn": "长款鹅绒服",
+      "spec": "米色/粉色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-34-row-63.png",
+      "imageRow": 63,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM4D010",
+      "slug": "jm4d010-short-hooded-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Short Hooded Goose Down Jacket",
+      "nameCn": "连帽短款鹅绒服",
+      "spec": "米色/浅灰/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-35-row-64.png",
+      "imageRow": 64,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM5D006",
+      "slug": "jm5d006-lightweight-quilted-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Lightweight Quilted Goose Down Jacket",
+      "nameCn": "排骨款轻薄鹅绒服",
+      "spec": "黑色/浅灰/粉色/藏青/米色/黄色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-36-row-65.png",
+      "imageRow": 65,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM5D025",
+      "slug": "jm5d025-short-hooded-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Short Hooded Goose Down Jacket",
+      "nameCn": "连帽短款鹅绒服",
+      "spec": "米色/粉色/黑色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-37-row-66.png",
+      "imageRow": 66,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM5D030",
+      "slug": "jm5d030-short-stand-collar-goose-down-jacket",
+      "category": "Goose Down Outerwear",
+      "categoryCn": "鹅绒服",
+      "name": "Short Stand-Collar Goose Down Jacket",
+      "nameCn": "立领短款鹅绒服",
+      "spec": "黑色/浅灰/粉色/米色/S-XL",
+      "description": "羽绒服内部填充了高达95%的白鹅绒，外层选用了高密度的锦纶面料，整体采用泡芙版型设计。95%的白鹅绒绒朵大、无杂梗，能锁住大量静止空气，带来极佳的蓬松度与蓄热能力",
+      "detail": "",
+      "materials": [
+        "95% white goose down"
+      ],
+      "image": "/assets/products/product-38-row-67.png",
+      "imageRow": 67,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM5361",
+      "slug": "jm5361-beaded-crewneck-wool-sweater",
+      "category": "Pure Wool Sweaters",
+      "categoryCn": "全羊毛毛衫",
+      "name": "Beaded Crewneck Wool Sweater",
+      "nameCn": "钉珠圆领毛衫",
+      "spec": "高级灰/ S-XL",
+      "description": "",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-39-row-75.jpg",
+      "imageRow": 75,
+      "imageSourceSheet": "产品信息"
+    },
+    {
+      "id": "JM5362",
+      "slug": "jm5362-beaded-crewneck-wool-sweater",
+      "category": "Pure Wool Sweaters",
+      "categoryCn": "全羊毛毛衫",
+      "name": "Beaded Crewneck Wool Sweater",
+      "nameCn": "钉珠圆领毛衫",
+      "spec": "落樱粉/ S-XL",
+      "description": "",
+      "detail": "",
+      "materials": [],
+      "image": "/assets/products/product-40-row-76.png",
+      "imageRow": 76,
+      "imageSourceSheet": "产品信息"
+    }
+  ],
+  "faq": [
+    {
+      "category": "产品与规格类",
+      "question": "What specifications or models are available?",
+      "answer": "XS/S/M/L/XL/XXL"
+    },
+    {
+      "category": "",
+      "question": "Do you support customized size, material, color, or process?",
+      "answer": "是，支持定制化服务，包括尺寸/工艺"
+    },
+    {
+      "category": "",
+      "question": "Can you provide samples?",
+      "answer": "是，可提供样品，具体费用视情况而定"
+    },
+    {
+      "category": "",
+      "question": "Do you provide technical data sheets or test reports?",
+      "answer": "是，可提供产品技术参数表及第三方检测报告"
+    },
+    {
+      "category": "",
+      "question": "What industries or applications are your products suitable for?",
+      "answer": "适用于服装零售、企业定制、活动服装、运动服装等多个行业。"
+    },
+    {
+      "category": "",
+      "question": "Do you support OEM / ODM services?",
+      "answer": "是，支持OEM（贴牌生产）和ODM（设计+生产）模式。"
+    },
+    {
+      "category": "",
+      "question": "What is the service life or performance advantage of the product?",
+      "answer": "产品采用优质面料，耐洗耐磨，使用寿命长，穿着舒适。"
+    },
+    {
+      "category": "",
+      "question": "What is the sample lead time?",
+      "answer": "样品交期为7-15个工作日（视款式复杂程度调整）"
+    },
+    {
+      "category": "",
+      "question": "Do you support sample approval before mass production?",
+      "answer": "是，支持先打样确认，满意后再进行批量生产。"
+    },
+    {
+      "category": "",
+      "question": "Are samples consistent with mass production?",
+      "answer": "是，样品与大货面料、工艺、颜色完全一致。"
+    },
+    {
+      "category": "生产与交期类",
+      "question": "What is the production lead time after ordering?",
+      "answer": "标准生产周期为30-45个工作日（视订单数量及工艺复杂程度调整）。"
+    },
+    {
+      "category": "",
+      "question": "Is the delivery time for bulk orders stable?",
+      "answer": "是，我们有完善的生产管理体系，确保交期稳定。"
+    },
+    {
+      "category": "",
+      "question": "Will lead time be extended during peak seasons?",
+      "answer": "旺季可能延长交期，我们会提前与客户沟通并调整生产计划。"
+    },
+    {
+      "category": "",
+      "question": "Do you support urgent or expedited production?",
+      "answer": "是，支持加急生产，但需额外支付加急费用。"
+    },
+    {
+      "category": "",
+      "question": "Can you provide production progress updates?",
+      "answer": "是，可定期提供生产进度报告，包括面料采购、裁剪、缝制等环节。"
+    },
+    {
+      "category": "质量与质检类",
+      "question": "Do you have a quality control process?",
+      "answer": "是，我们有严格的质量控制体系，包括原材料检验、生产过程监控、成品检测等。"
+    },
+    {
+      "category": "",
+      "question": "Do you support third-party inspection?",
+      "answer": "是，支持第三方验货。"
+    },
+    {
+      "category": "",
+      "question": "Do you provide inspection or quality reports?",
+      "answer": "是，每批货物出厂前都会进行质检，并提供质检报告。"
+    }
+  ],
+  "assets": {
+    "logo": "/brand/logo.png",
+    "productImages": [
+      {
+        "index": 1,
+        "row": 4,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-01-row-4.jpg"
+      },
+      {
+        "index": 2,
+        "row": 7,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-02-row-7.jpg"
+      },
+      {
+        "index": 3,
+        "row": 5,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-03-row-5.jpg"
+      },
+      {
+        "index": 4,
+        "row": 8,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-04-row-8.jpg"
+      },
+      {
+        "index": 5,
+        "row": 10,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-05-row-10.jpg"
+      },
+      {
+        "index": 6,
+        "row": 16,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-06-row-16.jpg"
+      },
+      {
+        "index": 7,
+        "row": 17,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-07-row-17.jpg"
+      },
+      {
+        "index": 8,
+        "row": 18,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-08-row-18.jpg"
+      },
+      {
+        "index": 9,
+        "row": 19,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-09-row-19.jpg"
+      },
+      {
+        "index": 10,
+        "row": 14,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-10-row-14.jpg"
+      },
+      {
+        "index": 11,
+        "row": 15,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-11-row-15.jpg"
+      },
+      {
+        "index": 12,
+        "row": 12,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-12-row-12.jpg"
+      },
+      {
+        "index": 13,
+        "row": 21,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-13-row-21.jpg"
+      },
+      {
+        "index": 14,
+        "row": 24,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-14-row-24.jpg"
+      },
+      {
+        "index": 15,
+        "row": 27,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-15-row-27.jpg"
+      },
+      {
+        "index": 16,
+        "row": 29,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-16-row-29.jpg"
+      },
+      {
+        "index": 17,
+        "row": 30,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-17-row-30.jpg"
+      },
+      {
+        "index": 18,
+        "row": 32,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-18-row-32.jpg"
+      },
+      {
+        "index": 19,
+        "row": 34,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-19-row-34.jpg"
+      },
+      {
+        "index": 20,
+        "row": 36,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-20-row-36.jpg"
+      },
+      {
+        "index": 21,
+        "row": 38,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-21-row-38.jpg"
+      },
+      {
+        "index": 22,
+        "row": 40,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-22-row-40.jpg"
+      },
+      {
+        "index": 23,
+        "row": 44,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-23-row-44.jpg"
+      },
+      {
+        "index": 24,
+        "row": 45,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-24-row-45.jpg"
+      },
+      {
+        "index": 25,
+        "row": 48,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-25-row-48.jpg"
+      },
+      {
+        "index": 26,
+        "row": 50,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-26-row-50.jpg"
+      },
+      {
+        "index": 27,
+        "row": 53,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-27-row-53.jpg"
+      },
+      {
+        "index": 28,
+        "row": 56,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-28-row-56.jpg"
+      },
+      {
+        "index": 29,
+        "row": 58,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-29-row-58.png"
+      },
+      {
+        "index": 30,
+        "row": 59,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-30-row-59.png"
+      },
+      {
+        "index": 31,
+        "row": 60,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-31-row-60.png"
+      },
+      {
+        "index": 32,
+        "row": 61,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-32-row-61.png"
+      },
+      {
+        "index": 33,
+        "row": 62,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-33-row-62.png"
+      },
+      {
+        "index": 34,
+        "row": 63,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-34-row-63.png"
+      },
+      {
+        "index": 35,
+        "row": 64,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-35-row-64.png"
+      },
+      {
+        "index": 36,
+        "row": 65,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-36-row-65.png"
+      },
+      {
+        "index": 37,
+        "row": 66,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-37-row-66.png"
+      },
+      {
+        "index": 38,
+        "row": 67,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-38-row-67.png"
+      },
+      {
+        "index": 39,
+        "row": 75,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-39-row-75.jpg"
+      },
+      {
+        "index": 40,
+        "row": 76,
+        "sourceSheet": "产品信息",
+        "path": "/assets/products/product-40-row-76.png"
+      }
+    ],
+    "factoryImages": [
+      {
+        "index": 1,
+        "row": 1,
+        "col": 1,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-01-row-1-col-1.png"
+      },
+      {
+        "index": 2,
+        "row": 1,
+        "col": 11,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-02-row-1-col-11.png"
+      },
+      {
+        "index": 3,
+        "row": 34,
+        "col": 1,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-03-row-34-col-1.png"
+      },
+      {
+        "index": 4,
+        "row": 34,
+        "col": 12,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-04-row-34-col-12.png"
+      },
+      {
+        "index": 5,
+        "row": 64,
+        "col": 1,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-05-row-64-col-1.png"
+      },
+      {
+        "index": 6,
+        "row": 64,
+        "col": 12,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-06-row-64-col-12.png"
+      },
+      {
+        "index": 7,
+        "row": 94,
+        "col": 1,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-07-row-94-col-1.png"
+      },
+      {
+        "index": 8,
+        "row": 94,
+        "col": 12,
+        "sourceSheet": "公司环境图片",
+        "path": "/assets/factory/factory-08-row-94-col-12.png"
+      }
+    ]
+  }
+}
