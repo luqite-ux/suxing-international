@@ -1,10 +1,14 @@
 import { NextResponse } from "next/server";
 
 export async function POST(request: Request) {
-  const form = await request.formData();
-  const email = String(form.get("email") ?? "").trim();
-  const name = String(form.get("name") ?? "").trim();
-  const message = String(form.get("message") ?? "").trim();
+  const contentType = request.headers.get("content-type") ?? "";
+  const values = contentType.includes("application/json")
+    ? await request.json()
+    : Object.fromEntries((await request.formData()).entries());
+  const getValue = (key: string) => String(values[key] ?? "").trim();
+  const email = getValue("email");
+  const name = getValue("name");
+  const message = getValue("message");
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
   const tenantId = process.env.NEXT_PUBLIC_TENANT_ID;
@@ -21,12 +25,12 @@ export async function POST(request: Request) {
     tenant_id: tenantId,
     name,
     email,
-    phone: String(form.get("phone") ?? "").trim(),
-    company: String(form.get("company") ?? "").trim(),
-    subject: String(form.get("subject") ?? "General B2B apparel manufacturing inquiry").trim(),
+    phone: getValue("phone"),
+    company: getValue("company"),
+    subject: getValue("subject") || "General B2B apparel manufacturing inquiry",
     message: [
       message,
-      String(form.get("quantity") ?? "").trim() ? `Program details: ${String(form.get("quantity")).trim()}` : ""
+      getValue("quantity") ? `Program details: ${getValue("quantity")}` : ""
     ].filter(Boolean).join("\n\n"),
     status: "unread"
   };
