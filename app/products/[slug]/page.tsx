@@ -1,10 +1,40 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { InquiryForm } from "@/components/inquiry-form";
 import { getProductBySlug, products } from "@/src/data/site";
 
 export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
+  if (!product) {
+    return {
+      title: "Product Not Found | SUXING International"
+    };
+  }
+
+  const description = product.description || `${product.name} for B2B apparel sourcing and private-label programs.`;
+
+  return {
+    title: `${product.name} | ${product.id} | SUXING International`,
+    description,
+    alternates: {
+      canonical: `/products/${product.slug}`
+    },
+    openGraph: {
+      title: `${product.name} | ${product.id}`,
+      description,
+      url: `https://suxingapparel.com/products/${product.slug}`,
+      siteName: "SUXING International",
+      images: [{ url: product.image, alt: product.name }],
+      locale: "en_US",
+      type: "website"
+    }
+  };
 }
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
