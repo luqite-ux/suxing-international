@@ -86,7 +86,9 @@ export default function HomePage() {
           <div className="grid gap-6 md:grid-cols-4">
             {featured.map((product) => (
               <Link key={product.slug} href={`/products/${product.slug}`} className="reveal-card overflow-hidden rounded-[1.5rem] border border-sky-100 bg-white">
-                <Image src={product.image} alt={product.name} width={420} height={560} className="h-72 w-full object-cover" />
+                <div className="flex h-72 w-full items-center justify-center bg-gradient-to-br from-white via-sky-50/60 to-white p-3">
+                  <Image src={product.image} alt={product.name} width={520} height={520} className="h-full w-full object-contain" />
+                </div>
                 <div className="p-5">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ocean">{product.category}</p>
                   <h3 className="mt-2 text-lg font-semibold text-ink">{product.name}</h3>

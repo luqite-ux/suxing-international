@@ -15,7 +15,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   return (
     <main className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
       <div className="lg:sticky lg:top-28 lg:self-start">
-        <Image src={product.image} alt={product.name} width={760} height={980} className="max-h-[760px] w-full rounded-[2.5rem] object-cover shadow-airy" priority />
+        <div className="flex max-h-[760px] min-h-[420px] items-center justify-center rounded-[2.5rem] bg-gradient-to-br from-white via-sky-50/70 to-white p-5 shadow-airy">
+          <Image src={product.image} alt={product.name} width={980} height={980} className="max-h-[720px] w-full object-contain" priority />
+        </div>
       </div>
       <div>
         <p className="text-sm font-semibold uppercase tracking-[0.24em] text-ocean">{product.category}</p>

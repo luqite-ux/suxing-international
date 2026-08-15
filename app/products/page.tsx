@@ -24,8 +24,8 @@ export default function ProductsPage() {
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {products.filter((product) => product.category === category.name).map((product) => (
               <article key={product.slug} className="reveal-card overflow-hidden rounded-[1.5rem] border border-sky-100 bg-white">
-                <Link href={`/products/${product.slug}`}>
-                  <Image src={product.image} alt={product.name} width={420} height={560} className="h-72 w-full object-cover" />
+                <Link href={`/products/${product.slug}`} className="flex h-72 w-full items-center justify-center bg-gradient-to-br from-white via-sky-50/60 to-white p-3">
+                  <Image src={product.image} alt={product.name} width={520} height={520} className="h-full w-full object-contain" />
                 </Link>
                 <div className="p-5">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ocean">{product.id}</p>
