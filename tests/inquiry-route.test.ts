@@ -1,6 +1,16 @@
 import { afterEach, describe, expect, test, vi } from "vitest";
 import { POST } from "../app/api/inquiries/route";
 
+const verifyCaptchaSubmission = vi.hoisted(() => vi.fn().mockResolvedValue({ ok: true }));
+vi.mock("@/lib/inquiry-captcha", () => ({
+  createSupabaseCaptchaContextFromEnv: () => ({
+    store: {},
+    tenantId: "tenant-123",
+    siteScope: "suxing-international"
+  }),
+  verifyCaptchaSubmission
+}));
+
 const originalEnv = { ...process.env };
 
 afterEach(() => {
@@ -22,6 +32,7 @@ describe("inquiry route", () => {
     process.env.NEXT_PUBLIC_SUPABASE_URL = "https://example.supabase.co";
     process.env.SUPABASE_SERVICE_ROLE_KEY = "service-key";
     process.env.NEXT_PUBLIC_TENANT_ID = "tenant-123";
+    process.env.CAPTCHA_SECRET = "x".repeat(32);
     const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(new Response("[]", { status: 201 }));
 
     const response = await POST(requestWithForm({
@@ -31,6 +42,9 @@ describe("inquiry route", () => {
       company: "Retail Group",
       quantity: "500 pieces",
       message: "We need a custom knitwear program."
+      ,captchaScope: "captcha_test_scope_1234567890"
+      ,captchaToken: "captcha-test-token"
+      ,captchaAnswer: "ABCD"
     }));
     const body = await response.json();
 

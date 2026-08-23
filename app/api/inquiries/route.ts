@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { createSupabaseCaptchaContextFromEnv, verifyCaptchaSubmission } from "@/lib/inquiry-captcha";
 
 export async function POST(request: Request) {
   const contentType = request.headers.get("content-type") ?? "";
@@ -6,6 +7,27 @@ export async function POST(request: Request) {
     ? await request.json()
     : Object.fromEntries((await request.formData()).entries());
   const getValue = (key: string) => String(values[key] ?? "").trim();
+  const secret = process.env.CAPTCHA_SECRET?.trim();
+  if (!secret) {
+    return NextResponse.json({ ok: false, error: "Inquiry service is temporarily unavailable." }, { status: 503 });
+  }
+
+  try {
+    const { store, tenantId, siteScope } = createSupabaseCaptchaContextFromEnv();
+    const captcha = await verifyCaptchaSubmission({
+      secret, store, tenantId, siteScope,
+      scope: getValue("captchaScope"),
+      token: getValue("captchaToken"),
+      answer: getValue("captchaAnswer"),
+    });
+    if (!captcha.ok) {
+      return NextResponse.json({ ok: false, error: "Invalid or expired CAPTCHA. Please refresh and try again." }, { status: 400 });
+    }
+  } catch (error) {
+    console.error("[inquiries] CAPTCHA verification failed", error instanceof Error ? error.message : error);
+    return NextResponse.json({ ok: false, error: "Inquiry service is temporarily unavailable." }, { status: 503 });
+  }
+
   const email = getValue("email");
   const name = getValue("name");
   const message = getValue("message");

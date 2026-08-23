@@ -3,24 +3,29 @@
 import { useState } from "react";
 import { Send } from "lucide-react";
 import { buildInquirySubject, type Product } from "@/src/data/site";
+import { InquiryCaptchaField } from "@/components/inquiry-captcha-field";
 
 export function InquiryForm({ product }: { product?: Product }) {
   const subject = buildInquirySubject(product);
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [captchaRefreshKey, setCaptchaRefreshKey] = useState(0);
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("submitting");
-    const response = await fetch("/api/inquiries", {
-      method: "POST",
-      body: new FormData(event.currentTarget)
-    });
-
-    if (response.ok) {
-      event.currentTarget.reset();
+    const form = event.currentTarget;
+    try {
+      const response = await fetch("/api/inquiries", {
+        method: "POST",
+        body: new FormData(form)
+      });
+      if (!response.ok) throw new Error("Inquiry rejected");
+      form.reset();
       setStatus("success");
-    } else {
+    } catch {
       setStatus("error");
+    } finally {
+      setCaptchaRefreshKey((key) => key + 1);
     }
   }
 
@@ -55,6 +60,7 @@ export function InquiryForm({ product }: { product?: Product }) {
         Project Details
         <textarea name="message" required rows={5} className="min-w-0 rounded-2xl border border-sky-100 px-4 py-3 outline-none focus:border-ocean" />
       </label>
+      <InquiryCaptchaField refreshKey={captchaRefreshKey} />
       <button type="submit" disabled={status === "submitting"} className="inline-flex w-fit items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white shadow-airy transition hover:bg-ocean disabled:cursor-wait disabled:bg-slate-500">
         {status === "submitting" ? "Sending..." : "Submit Inquiry"}
         <Send className="h-4 w-4" />
