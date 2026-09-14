@@ -16,7 +16,7 @@ export default async function NewsPage() {
   const articles = await readArticles('en')
   return (
     <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <p className="text-sm font-semibold uppercase tracking-[0.24em] text-ocean">News</p>
+      <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-800">News</p>
       <h1 className="mt-3 text-5xl font-semibold text-ink">News</h1>
       {articles.length ? <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">{articles.map(article => <article key={article.id} className="flex h-full flex-col overflow-hidden rounded-[2rem] border border-sky-200 bg-white shadow-airy">
         {article.featured_image ? <img loading="lazy" src={article.featured_image} alt={article.title} className="aspect-video w-full object-cover" /> : <div className="flex aspect-video items-center justify-center bg-sky-50"><Newspaper className="h-12 w-12 text-sky-800" aria-hidden="true" /></div>}
