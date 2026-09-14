@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, test } from "vitest";
+import { describe, expect, test, vi } from "vitest";
 import HomePage from "../app/page";
 import ProductsPage from "../app/products/page";
 import ProductDetailPage from "../app/products/[slug]/page";
@@ -29,11 +29,19 @@ describe("independent pages", () => {
     expect(screen.getByDisplayValue(`Inquiry for ${products[0].name} (${products[0].id})`)).toBeTruthy();
   });
 
-  test("news page shows empty state without invented news", () => {
-    render(<NewsPage />);
-
-    expect(screen.getByRole("heading", { name: /news/i })).toBeTruthy();
-    expect(screen.getByText(/No published updates yet/i)).toBeTruthy();
+  test("news page shows empty state without invented news", async () => {
+    vi.stubEnv('NEXT_PUBLIC_SUPABASE_URL', 'https://example.test');
+    vi.stubEnv('NEXT_PUBLIC_SUPABASE_ANON_KEY', 'test-key');
+    vi.stubEnv('NEXT_PUBLIC_TENANT_ID', 'test-tenant');
+    const request = vi.spyOn(globalThis, 'fetch').mockImplementation(async () => new Response('[]', { status: 200 }));
+    try {
+      render(await NewsPage());
+      expect(screen.getByRole("heading", { name: /news/i })).toBeTruthy();
+      expect(screen.getByText(/No published updates yet/i)).toBeTruthy();
+    } finally {
+      request.mockRestore();
+      vi.unstubAllEnvs();
+    }
   });
 
   test("contact page renders the real inquiry form target", () => {
